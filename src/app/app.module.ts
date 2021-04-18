@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { EventBindingExampleComponent } from './event-binding-example/event-binding-example.component';
 import { TemplateExampleComponent } from './template-example/template-example.component';
+import { DirectiveExampleDirective } from './directive-example.directive';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { TemplateExampleComponent } from './template-example/template-example.co
     HomeComponent,
     AboutMeComponent,
     EventBindingExampleComponent,
-    TemplateExampleComponent
+    TemplateExampleComponent,
+    DirectiveExampleDirective
   ],
   imports: [
     BrowserModule,

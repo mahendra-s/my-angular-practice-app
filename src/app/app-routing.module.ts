@@ -6,10 +6,11 @@ import { EventBindingExampleComponent } from './event-binding-example/event-bind
 import { TemplateExampleComponent } from './template-example/template-example.component';
 
 const routes: Routes = [
-  {path: 'home', component: HomeComponent},
-  {path: 'about', component: AboutMeComponent},
-  {path: 'event-binding-example', component: EventBindingExampleComponent},
-  {path: 'template-example', component: TemplateExampleComponent}
+  {path: 'home', component: HomeComponent}
+  , {path: 'about', component: AboutMeComponent}
+  , {path: 'event-binding-example', component: EventBindingExampleComponent}
+  , {path: 'template-example', component: TemplateExampleComponent}
+  , {path: 'directive-example', component: TemplateExampleComponent}
 ];
 
 @NgModule({
