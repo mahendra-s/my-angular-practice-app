@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { MyHttpDataServiceService } from '../services-module/my-http-data-service.service';
-import { User } from '../services-module/pojo/User';
+import { User } from '../services-module/pojo/user';
 
 @Component({
   selector: 'app-http-client-example',
