@@ -10,6 +10,8 @@ import { TemplateExampleComponent } from './template-example/template-example.co
 import { DirectiveExampleDirective } from './directive-example.directive';
 import { PipeExampleComponent } from './pipe-example/pipe-example.component';
 import { PipModule } from './pipe-module/pip-module';
+import { MyDateServiceUseComponentComponent } from './my-date-service-use-component/my-date-service-use-component.component';
+import { ServicesModule } from './services-module/services-module';
 
 @NgModule({
   declarations: [
@@ -19,12 +21,13 @@ import { PipModule } from './pipe-module/pip-module';
     , EventBindingExampleComponent
     , TemplateExampleComponent
     , DirectiveExampleDirective
-    , PipeExampleComponent
+    , PipeExampleComponent, MyDateServiceUseComponentComponent
   ],
   imports: [
     BrowserModule
     , AppRoutingModule
     , PipModule
+    , ServicesModule
   ],
   bootstrap: [HomeComponent]
 })

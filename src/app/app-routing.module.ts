@@ -5,6 +5,7 @@ import { AboutMeComponent } from './about-me/about-me.component';
 import { EventBindingExampleComponent } from './event-binding-example/event-binding-example.component';
 import { TemplateExampleComponent } from './template-example/template-example.component';
 import { PipeExampleComponent } from './pipe-example/pipe-example.component';
+import { MyDateServiceUseComponentComponent } from './my-date-service-use-component/my-date-service-use-component.component';
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent}
@@ -13,6 +14,7 @@ const routes: Routes = [
   , {path: 'template-example', component: TemplateExampleComponent}
   , {path: 'directive-example', component: TemplateExampleComponent}
   , {path: 'pipe-example', component: PipeExampleComponent}
+  , {path: 'service-example', component: MyDateServiceUseComponentComponent}
 ];
 
 @NgModule({
