@@ -1,0 +1,7 @@
+<p>template-example works!</p>
+<button (click)="invertSelection($event)">Click Me Invert Selection</button>
+<div><b> Selected Template here:</b>
+  <span *ngIf="isSelected; then selected else notSelected"></span>
+  <ng-template #selected>The select variable is set to true.</ng-template>
+  <ng-template #notSelected>The select variable is set to false.</ng-template>
+</div>

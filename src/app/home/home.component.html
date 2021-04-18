@@ -4,11 +4,21 @@
 <br/>
 <nav>
   <ul>
+    <li><a routerLink="/about">Component Example - About Me</a></li>
     <li><a routerLink="/event-binding-example">Event Binding Example</a></li>
+    <li><a routerLink="/template-example">Template Example</a></li>
   </ul>
   <br/><br/>
-  <a routerLink="/about">About Me</a>
+  <table>
+    <tr>
+      <td><a routerLink="/">Home</a></td>
+      <td>&nbsp;&nbsp;</td>
+      <td><a routerLink="/about">About Me</a></td>
+    </tr>
+  </table>
+
 </nav>
-<br/><hr/>
+<br/>
+<hr/>
 <br/><br/>
 <router-outlet></router-outlet>
