@@ -1,0 +1,28 @@
+<p>http-client-example works!</p>
+<div>
+  <h2> List of Users are -</h2>
+  <ul>
+    <li *ngFor="let item of users">{{item.name}}</li>
+  </ul>
+</div>
+<div>
+  <h2> Table of Users </h2>
+  <table>
+    <thead>
+    <td>Id</td>
+    <td>Name</td>
+    <td>Email</td>
+    <td>Phone</td>
+    <td>Website</td>
+    <td>Company Name</td>
+    </thead>
+    <tr *ngFor="let user of users">
+      <td> {{user.id}}</td>
+      <td> {{user.name}}</td>
+      <td> {{user.email}}</td>
+      <td> {{user.phone}}</td>
+      <td> {{user.website}}</td>
+      <td> {{user.company.name}}</td>
+    </tr>
+  </table>
+</div>

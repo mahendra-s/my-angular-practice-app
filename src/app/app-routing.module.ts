@@ -6,6 +6,7 @@ import { EventBindingExampleComponent } from './event-binding-example/event-bind
 import { TemplateExampleComponent } from './template-example/template-example.component';
 import { PipeExampleComponent } from './pipe-example/pipe-example.component';
 import { MyDateServiceUseComponentComponent } from './my-date-service-use-component/my-date-service-use-component.component';
+import { HttpClientExampleComponent } from './http-client-example/http-client-example.component';
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent}
@@ -15,6 +16,7 @@ const routes: Routes = [
   , {path: 'directive-example', component: TemplateExampleComponent}
   , {path: 'pipe-example', component: PipeExampleComponent}
   , {path: 'service-example', component: MyDateServiceUseComponentComponent}
+  , {path: 'http-client-example', component: HttpClientExampleComponent}
 ];
 
 @NgModule({

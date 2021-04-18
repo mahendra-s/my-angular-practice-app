@@ -12,6 +12,7 @@ import { PipeExampleComponent } from './pipe-example/pipe-example.component';
 import { PipModule } from './pipe-module/pip-module';
 import { MyDateServiceUseComponentComponent } from './my-date-service-use-component/my-date-service-use-component.component';
 import { ServicesModule } from './services-module/services-module';
+import { HttpClientExampleComponent } from './http-client-example/http-client-example.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,9 @@ import { ServicesModule } from './services-module/services-module';
     , EventBindingExampleComponent
     , TemplateExampleComponent
     , DirectiveExampleDirective
-    , PipeExampleComponent, MyDateServiceUseComponentComponent
+    , PipeExampleComponent
+    , MyDateServiceUseComponentComponent
+    , HttpClientExampleComponent
   ],
   imports: [
     BrowserModule
