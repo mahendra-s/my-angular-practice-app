@@ -8,21 +8,24 @@ import { AboutMeComponent } from './about-me/about-me.component';
 import { EventBindingExampleComponent } from './event-binding-example/event-binding-example.component';
 import { TemplateExampleComponent } from './template-example/template-example.component';
 import { DirectiveExampleDirective } from './directive-example.directive';
+import { PipeExampleComponent } from './pipe-example/pipe-example.component';
+import { PipModule } from './pipe-module/pip-module';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    HomeComponent,
-    AboutMeComponent,
-    EventBindingExampleComponent,
-    TemplateExampleComponent,
-    DirectiveExampleDirective
+    AppComponent
+    , HomeComponent
+    , AboutMeComponent
+    , EventBindingExampleComponent
+    , TemplateExampleComponent
+    , DirectiveExampleDirective
+    , PipeExampleComponent
   ],
   imports: [
-    BrowserModule,
-    AppRoutingModule
+    BrowserModule
+    , AppRoutingModule
+    , PipModule
   ],
-  providers: [],
   bootstrap: [HomeComponent]
 })
 export class AppModule {}

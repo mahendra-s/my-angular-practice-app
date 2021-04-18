@@ -1,0 +1,31 @@
+<p>pipe-example works!</p>
+
+<h2> Uppercase pipe </h2>
+<h3>{{titleText | uppercase}}</h3>
+<br/>
+<h2> Lowercase pipe </h2>
+<h3>{{titleText | lowercase}}</h3>
+<br/>
+<h2> Date Pipe </h2>
+<h3> {{todayDate | date}}</h3>
+<h3> {{todayDate | date:'d/M/y'}}</h3>
+<h3> {{todayDate | date:'shortTime'}}</h3>
+<br/>
+<h2> Currency Pipe </h2>
+<h3> {{123.786 | currency}}</h3>
+<h3> {{123.786 | currency:'USD':false}}</h3>
+<h3> {{123.786 | currency:'EUR':true}}</h3>
+<h3> {{123.786 | currency:'INR':true}}</h3>
+<h2> Decimal Number Pipe</h2>
+<h3>{{23423487.23863|number:"4.3-4"}}</h3>
+<h3>{{87.23863|number:"4.3-4"}}</h3>
+<h2> Percentage Pipe</h2>
+<h3>{{988.243 |percent}}</h3>
+<h3>{{87.24 |percent}}</h3>
+<h2> Slice Pipe</h2>
+<h3> {{months | slice:2:8}}</h3>
+<h2> Json value Pipe</h2>
+<h3> {{jsonval | json}}</h3>
+<h2> Custom Pipe - sqrt</h2>
+<h3> {{25 | sqrt}}</h3>
+<h3> {{81 | sqrt}}</h3>
