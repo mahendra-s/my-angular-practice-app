@@ -1,0 +1,10 @@
+<div>
+  <button (click)="buttonClickFunction($event)">Click Me</button>
+</div>
+<div>
+  Select Any Month:
+  <select (change)="selectMonthFun($event)">
+    <option *ngFor="let item of months">{{item}}</option>
+  </select>
+
+</div>
